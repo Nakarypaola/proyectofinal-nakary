@@ -1,0 +1,170 @@
+#logo{
+    width: 200px;
+    height: 175px;
+}
+
+#menu{
+    background-color: #dc8dbb !important;
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: bold;
+
+}
+
+/* dimensionar las images del carousel */
+.alto-img{
+    height: 750px !important;
+}
+
+/* Novedades */
+#novedades{
+    background-color:#dc83c4 !important;
+
+
+}
+
+#novedades .titulo{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    padding-top: 5px;
+    
+}
+
+
+/* videos */
+#videos .titulo{
+    width: 100%;
+    text-align: center;
+
+}
+
+#videos{
+background-color: #dc83c4 ;
+}
+
+body{
+    /* activa o quita las barras de desplazamiento */
+    overflow-x: hidden;
+}
+
+/* footer */
+#page-footer{
+    background-color: #dc83c4 ;
+}
+
+#page-footer a{
+    color: #fff;
+}
+
+#page-footer .ftcontainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: center;
+    padding-top:40px 0;
+    flex-wrap: nowrap;
+}
+
+.footer__menu{
+    max-width: 300px;
+    grid-column: 1/3;
+    grid-row-start: 1;
+    padding-left: 1em;
+}
+
+.footer__menu figure{
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+
+}
+
+.footer__logo{
+    width: 210px;
+}
+
+#page-footer .ftcontainer {
+    max-width: 1200px;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 70px 0; 
+}
+
+.ft-social{
+    color: #fff;
+    border-radius: 100%;
+    height: auto;
+    width: 50px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: inherit;
+}
+
+.ft-link{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer__title{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-size:1.2rem;
+}
+
+.footer__info{
+    color: #fff;
+    line-height:30px;
+    font-size: 1.0rem;
+}
+
+.footer__link:nth-child(1){
+    border-left: 2px solid #f307db;
+}
+.footer__link:nth-child(2){
+    border-left: 2px solid #f307db;
+}
+.footer__link:nth-child(3){
+    border-left: 2px solid #f307db;
+}
+
+.footer-credits{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #dc83c4;
+}
+
+/* pagina contacto */
+#contacto .titulo{
+
+      width: 100;
+      text-align: center;
+      margin-top: 115px;
+
+}
+
+/* ropa */
+#ropa .titulo{
+    width: 100%;
+    text-align: center;
+}
+
+/* seccion pagos */
+#pago .titulo{
+    width: 100;
+    text-align: center;
+}
+
+
+ 
+
+
+
